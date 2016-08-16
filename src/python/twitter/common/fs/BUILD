@@ -25,7 +25,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.fs',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'Filesystem utilities for twitter.',
     url = 'https://github.com/twitter/commons/tree/master/src/python/twitter/common/fs',
     license = 'Apache License, Version 2.0',

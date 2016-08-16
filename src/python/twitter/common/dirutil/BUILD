@@ -22,7 +22,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.dirutil',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common path and directory library.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

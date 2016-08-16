@@ -29,7 +29,7 @@ python_thrift_library(
   sources=globs('*.thrift'),
   provides = setup_py(
     name = 'twitter.common.service-thrift',
-    version = commons_version(),
+    version = "0.3.6",
     description = "twitter.common thrift stubs for metadata used with Twitter's service discovery "
                   "libraries.",
     url = 'https://github.com/twitter/commons',

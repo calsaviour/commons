@@ -31,7 +31,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.zookeeper',
-    version = commons_version(),
+    version = "0.3.6",
     description = "Implementations of Twitter's service discovery libraries on top of Kazoo.",
     extras_require = {
       # Require twitter.common.zookeeper[old] to pull in zc-zookeeper-static, which will not

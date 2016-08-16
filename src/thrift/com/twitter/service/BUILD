@@ -24,7 +24,7 @@ python_thrift_library(
   ),
   provides = setup_py(
     name = 'twitter.common.finagle-thrift',
-    version = commons_version(),
+    version = "0.3.6",
     description = "twitter.common thrift stubs for zipkin rpc tracing support in finagle",
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

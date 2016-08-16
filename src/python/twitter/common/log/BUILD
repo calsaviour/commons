@@ -23,7 +23,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.log',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common logging handlers.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

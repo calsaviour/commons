@@ -22,7 +22,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.jira',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common thin library for interacting with JIRA.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

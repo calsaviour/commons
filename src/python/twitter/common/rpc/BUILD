@@ -33,7 +33,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.rpc',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common thrift helpers including finagle and ssl transports.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

@@ -19,7 +19,7 @@ python_library(
   sources = globs('*.py'),
   provides = setup_py(
     name = 'twitter.common.lang',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common python language and compatibility facilities.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

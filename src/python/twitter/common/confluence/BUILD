@@ -22,7 +22,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.confluence',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'Confluence utilities for twitter.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

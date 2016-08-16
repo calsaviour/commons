@@ -19,7 +19,7 @@ python_library(
   sources = rglobs('*.py'),
   provides = setup_py(
     name = 'twitter.common.options',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common optparse wrapper.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

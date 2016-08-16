@@ -20,7 +20,7 @@ python_library(
   dependencies = [ 'src/python/twitter/common/lang' ],
   provides = setup_py(
     name = 'twitter.common.collections',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common collections library.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

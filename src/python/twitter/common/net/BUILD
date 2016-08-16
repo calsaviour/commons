@@ -32,7 +32,7 @@ python_library(
   ],
   provides = setup_py(
     name = 'twitter.common.net',
-    version = commons_version(),
+    version = "0.3.6",
     description = 'twitter.common tunneling and network utilities.',
     url = 'https://github.com/twitter/commons',
     license = 'Apache License, Version 2.0',

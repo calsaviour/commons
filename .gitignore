@@ -51,3 +51,6 @@ GPATH
 GRTAGS
 GSYMS
 GTAGS
+
+.cache/
+.pants.workdir.file_lock
